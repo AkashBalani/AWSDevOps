@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo yum update -y
+sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
+sudo yum install dotnet-sdk-3.1 -y
+sudo yum install aspnetcore-runtime-3.1
+sudo yum install dotnet-runtime-3.1
